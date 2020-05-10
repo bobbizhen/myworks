@@ -39,10 +39,10 @@
 			<div id="wecan" class="contain clearfix">
 				<h2 class="mb50">部分作品</h2>
 				<div class="container">
-					<div class="col-xs-3" v-for="(item,index) in works" :key="index" @click="openModal(index)">
-						<div class="item">
+					<div class="col-xs-3" v-for="(item,index) in works" :key="index">
+						<div class="item" @click="openModal(index)">
 							<div class="pic" :style="'background-image: url('+item.pic+');'" :class="{hasvideo:item.video!=''}">
-								<video autoplay loop muted v-if="item.video!=''">
+								<video autoplay="autoplay" loop muted v-if="item.video!=''">
 									<source :src="item.video" type="video/mp4" />
 								</video>
 							</div>
