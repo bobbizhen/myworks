@@ -341,6 +341,7 @@ body a:active, a:visited, a:focus {
 	left: 0px;
 	height:100%;
 	visibility: visible;
+	background-color: #ffffff;
 }
 .contain .item:hover .pic video {
 }

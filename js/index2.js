@@ -21,8 +21,8 @@ var vm = new Vue({
 				time:'交互 UI 前端'
 			},
 			{
-				pic:'images/default.jpg',
-				pic2:'images/default.jpg',
+				pic:'images/图标动画-2.jpg',
+				pic2:'images/图标动画-2.jpg',
 				video:'images/图标动画.mp4',
 				title:'图标动效',
 				classify:'建筑地产',
