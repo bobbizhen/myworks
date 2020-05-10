@@ -26,7 +26,7 @@
 					
 					<div class="modal-body">
 						<div class="modal_img">
-							<img :src="detail.pic" v-if="detail.video==''" />
+							<img :src="detail.pic2" v-if="detail.video==''" />
 							<video autoplay loop muted v-if="detail.video!=''" :src="detail.video">
 								
 							</video>
@@ -53,6 +53,7 @@
 									<div class="col-xs-6 cont  cont3">{{item.time}}</div>
 								</div>
 							</div>
+							<div class="hidediv"><img :src="item.pic2" /></div>
 						</div>
 					</div>
 
