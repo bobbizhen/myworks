@@ -231,8 +231,6 @@ body a:active, a:visited, a:focus {
 	margin-bottom:30px;
 	background: #fff url(../images/loading.gif) no-repeat center center;
 	position: relative;
-	
-	
 }
 .contain .item:hover {
 	top:-3px;
