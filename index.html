@@ -53,14 +53,10 @@
 									<div class="col-xs-6 cont  cont3">{{item.time}}</div>
 								</div>
 							</div>
-							<div class="hidediv"><img :src="item.pic2" /></div>
 						</div>
 					</div>
-
 				</div>
 			</div>
-
-
 
 			<div id="connectus" class="contain connectus clearfix">
 				<h2>联系方式</h2>
@@ -71,9 +67,11 @@
 					</div>
 					<div class=""><img src="img/email.png"></div>
 				</div>
-
-
-
+			</div>
+			<div class="hidden">
+				<div class="" v-for="(item,index) in works" :key="index">
+					<div class="hidediv"><img :src="item.pic2" /></div>
+				</div>
 			</div>
 		</div>
 		</div>
