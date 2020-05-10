@@ -231,6 +231,7 @@ body a:active, a:visited, a:focus {
 	margin-bottom:30px;
 	background-color: #fff;
 	position: relative;
+	
 }
 .contain .item:hover {
 	top:-3px;
@@ -262,9 +263,10 @@ body a:active, a:visited, a:focus {
 }
 .contain .item .pic {
 	height:280px;
+	cursor: pointer;
+	background: url(../images/default0.jpg);
 	background-size: 100%;
 	width:100%;
-	cursor: pointer;
 }
 .contain .item .pic video {
 }
