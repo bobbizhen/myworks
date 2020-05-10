@@ -229,8 +229,9 @@ body a:active, a:visited, a:focus {
 	position: relative;
 	cursor: pointer;
 	margin-bottom:30px;
-	background-color: #fff;
+	background: #fff url(../images/loading.gif) no-repeat center center;
 	position: relative;
+	
 	
 }
 .contain .item:hover {
